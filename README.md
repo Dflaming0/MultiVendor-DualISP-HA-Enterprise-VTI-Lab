@@ -10,6 +10,21 @@ When any component fails — from an access-switch cable to a whole ISP or the a
 
 **Status:** Cisco ISP routers — complete; Juniper — in progress; Fortinet and Check Point — planned.
 
+## Tools & Technologies
+
+[![Cisco](https://img.shields.io/badge/Cisco-IOS-0B5394?style=for-the-badge&logo=cisco&logoColor=white)](https://www.cisco.com/)
+[![Juniper](https://img.shields.io/badge/Juniper-vSRX-2E6B1F?style=for-the-badge&logo=junipernetworks&logoColor=white)](https://www.juniper.net/)
+[![Fortinet](https://img.shields.io/badge/Fortinet-FortiGate-DA291C?style=for-the-badge&logo=fortinet&logoColor=white)](https://www.fortinet.com/products/next-generation-firewall)
+[![Check Point](https://img.shields.io/badge/Check_Point-ClusterXL-741B47?style=for-the-badge)](https://www.checkpoint.com/)
+
+[![FortiManager](https://img.shields.io/badge/Fortinet-FortiManager-DA291C?style=for-the-badge&logo=fortinet&logoColor=white)](https://www.fortinet.com/products/management/fortimanager)
+[![FortiAnalyzer](https://img.shields.io/badge/Fortinet-FortiAnalyzer-DA291C?style=for-the-badge&logo=fortinet&logoColor=white)](https://www.fortinet.com/products/management/fortianalyzer)
+
+[![EVE-NG](https://img.shields.io/badge/EVE--NG-Lab_Emulation-orange?style=for-the-badge)](https://www.eve-ng.net/)
+[![Linux](https://img.shields.io/badge/Linux-Servers-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.kernel.org/)
+[![Windows Server](https://img.shields.io/badge/Windows_Server-Domain_Controller-0078D4?style=for-the-badge)](https://www.microsoft.com/windows-server)
+[![draw.io](https://img.shields.io/badge/draw.io-Topology_Diagrams-F08705?style=for-the-badge&logo=diagramsdotnet&logoColor=white)](https://www.drawio.com/)
+
 ## Topology
 
 ![Lab topology](diagrams/topology.svg)
@@ -109,3 +124,11 @@ When any component fails — from an access-switch cable to a whole ISP or the a
 | `C2-ISP1` | `10.255.255.2` | `10.255.255.2/32` |
 | `C1-ISP2` | `10.255.255.3` | `10.255.255.3/32` |
 | `C2-ISP2` | `10.255.255.4` | `10.255.255.4/32` |
+
+## Author
+
+Arthur Balenski — [github.com/Dflaming0](https://github.com/Dflaming0)
+
+## License
+
+Apache License 2.0 — see [`LICENSE`](LICENSE).
