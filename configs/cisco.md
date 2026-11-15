@@ -213,6 +213,7 @@ interface GigabitEthernet0/0
 !
 interface GigabitEthernet0/1
  ip address 10.2.1.2 255.255.255.0
+ ip nat inside
  ip ospf authentication message-digest
  ip ospf message-digest-key 1 md5 REPLACE_ME
  ip ospf network point-to-point
@@ -241,6 +242,7 @@ interface GigabitEthernet0/3
  no shutdown
 !
 router ospf 1
+ router-id 10.255.255.4
  default-information originate metric 20
 !
 ip route 0.0.0.0 0.0.0.0 172.16.172.254
@@ -261,4 +263,4 @@ All four routers run a single OSPF process in Area 0. The inter-ISP link and bot
 | `C1-ISP1` | `10.255.255.1` | 10 | `Gi0/1` 20, `Gi0/2` 10, `Gi0/3` 10 |
 | `C2-ISP1` | `10.255.255.2` | 10 | `Gi0/1` 20, `Gi0/2` 10, `Gi0/3` 10 |
 | `C1-ISP2` | `10.255.255.3` | 20 | `Gi0/1` 20, `Gi0/2` 10, `Gi0/3` 10 |
-| `C2-ISP2` | derived (`10.255.255.4`) | 20 | `Gi0/1` 20, `Gi0/2` 10, `Gi0/3` 10 |
+| `C2-ISP2` | `10.255.255.4` | 20 | `Gi0/1` 20, `Gi0/2` 10, `Gi0/3` 10 |
