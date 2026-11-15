@@ -10,6 +10,10 @@ When any component fails — from an access-switch cable to a whole ISP or the a
 
 **Status:** Cisco ISP routers — complete; Juniper — in progress; Fortinet and Check Point — planned.
 
+## Topology
+
+![Lab topology](diagrams/topology.svg)
+
 ## Addressing plan
 
 | VM/Device       | Port    | Connected To (Peer)          | IP Address/Mask    | Comment                               |
