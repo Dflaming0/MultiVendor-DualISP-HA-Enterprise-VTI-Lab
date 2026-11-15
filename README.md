@@ -54,12 +54,12 @@ When any component fails — from an access-switch cable to a whole ISP or the a
 | JUN-CORE1       | ge0/0/0 | C2-ISP1:gi0/2                | 10.1.2.1/24        |                                       |
 | JUN-CORE1       | ge0/0/1 | C1-ISP1:gi0/2                | 10.0.2.1/24        |                                       |
 | JUN-CORE1       | ge0/0/2 | FGT-HQ_1:port1               | 192.168.100.254/24 |                                       |
-| JUN-CORE1       | ge0/0/3 | FGT-HQ_2:port2               | 192.168.200.254/24 |                                       |
+| JUN-CORE1       | ge0/0/3 | FGT-HQ_2:port2               | 192.168.110.254/24 |                                       |
 | JUN-CORE1       | ge0/0/4 | JUN-CORE2:ge-0/0/4           | 10.100.100.1/24    | MGMT                                  |
 | JUN-CORE2       | ge0/0/0 | C1-ISP2:gi0/2                | 10.2.2.1/24        |                                       |
 | JUN-CORE2       | ge0/0/1 | C2-ISP2:gi0/2                | 10.3.2.1/24        |                                       |
-| JUN-CORE2       | ge0/0/2 | FGT-HQ_2:port1               | 192.168.100.254/24 |                                       |
-| JUN-CORE2       | ge0/0/3 | FGT-HQ_1:port2               | 192.168.200.254/24 |                                       |
+| JUN-CORE2       | ge0/0/2 | FGT-HQ_2:port1               | 192.168.200.254/24 |                                       |
+| JUN-CORE2       | ge0/0/3 | FGT-HQ_1:port2               | 192.168.210.254/24 |                                       |
 | JUN-CORE2       | ge0/0/4 | JUN-CORE1:ge-0/0/4           | 10.100.100.2/24    | MGMT                                  |
 | FGT-HQ_1        | port1   | JUN-CORE1:ge-0/0/2           | 192.168.100.1/24   |                                       |
 | FGT-HQ_1        | port2   | JUN-CORE2:ge-0/0/3           | 192.168.200.1/24   |                                       |
@@ -124,6 +124,9 @@ When any component fails — from an access-switch cable to a whole ISP or the a
 | `C2-ISP1` | `10.255.255.2` | `10.255.255.2/32` |
 | `C1-ISP2` | `10.255.255.3` | `10.255.255.3/32` |
 | `C2-ISP2` | `10.255.255.4` | `10.255.255.4/32` |
+| `JUN-CORE1`|`10.255.255.5`|`10.255.255.5/32`|
+| `JUN-CORE2`|`10.255.255.6`|`10.255.255.6/32`|
+
 
 ## Author
 
