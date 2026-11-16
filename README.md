@@ -62,14 +62,14 @@ When any component fails — from an access-switch cable to a whole ISP or the a
 | JUN-CORE2       | ge0/0/3 | FGT-HQ_1:port2               | 192.168.210.254/24 |                                       |
 | JUN-CORE2       | ge0/0/4 | JUN-CORE1:ge-0/0/4           | 10.100.100.2/24    | MGMT                                  |
 | FGT-HQ_1        | port1   | JUN-CORE1:ge-0/0/2           | 192.168.100.1/24   |                                       |
-| FGT-HQ_1        | port2   | JUN-CORE2:ge-0/0/3           | 192.168.200.1/24   |                                       |
+| FGT-HQ_1        | port2   | JUN-CORE2:ge-0/0/3           | 192.168.210.1/24   |                                       |
 | FGT-HQ_1        | port3   | FGT-HQ_2:port3               | 192.168.2.1/24     |                                       |
 | FGT-HQ_1        | port4   | FGT-HQ_2:port4               | 192.168.2.3/24     |                                       |
 | FGT-HQ_1        | port5   | SW-CORE2-HQ:Gi0/0            | 192.168.3.254/24   | SRV                                   |
 | FGT-HQ_1        | port6   | SW-CORE1-HQ:Gi0/1            | 192.168.4.254/24   | USR                                   |
 | FGT-HQ_1        | port7   | SW-CORE1-HQ:Gi1/1            | 192.168.5.6/29     | DMZ                                   |
-| FGT-HQ_2        | port1   | JUN-CORE2:ge-0/0/2           | 192.168.100.1/24   |                                       |
-| FGT-HQ_2        | port2   | JUN-CORE1:ge-0/0/3           | 192.168.200.1/24   |                                       |
+| FGT-HQ_2        | port1   | JUN-CORE2:ge-0/0/2           | 192.168.200.1/24   |                                       |
+| FGT-HQ_2        | port2   | JUN-CORE1:ge-0/0/3           | 192.168.110.1/24   |                                       |
 | FGT-HQ_2        | port3   | FGT-HQ_1:port3               | 192.168.2.2/24     |                                       |
 | FGT-HQ_2        | port4   | FGT-HQ_1:port4               | 192.168.2.4/24     |                                       |
 | FGT-HQ_2        | port5   | SW-CORE1-HQ:Gi0/0            | 192.168.3.254/24   | SRV                                   |
