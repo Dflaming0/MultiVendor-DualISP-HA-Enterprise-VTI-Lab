@@ -118,8 +118,6 @@ When any component fails — from an access-switch cable to a whole ISP or the a
 
 `Comment` carries the security zone (`USR`, `SRV`, `DMZ`, `MGMT`) and the interface role. Links without a zone are WAN, transit, or HA. An empty `VM/Device` cell means the same device as the row above.
 
-HA-порты FortiGate (`port3`/`port4` в HQ, `port1`/`port2` в BR2) без IP: FGCP-heartbeat и синхронизация сессий идут по L2, третьего октета на них не нужно. У Check Point синхронизация остаётся с адресами — ClusterXL гоняет state sync по UDP 8116 через IP на sync-интерфейсе.
-
 ### Bridges
 
 | Bridge       | Connected To (Peer)                                | Subnet       |
