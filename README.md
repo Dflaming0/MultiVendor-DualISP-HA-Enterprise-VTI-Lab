@@ -62,14 +62,14 @@ When any component fails — from an access-switch cable to a whole ISP or the a
 | FGT-HQ_1        | port1   | Bridge-HQ_1                  | 10.20.0.1/24      | cluster IP, OSPF Area 10              |
 |                 | port2   | Bridge-HQ_2                  | 10.20.1.1/24      | cluster IP, OSPF Area 10              |
 |                 | port3   | FGT-HQ_2:port3               | —                 | HA heartbeat                          |
-|                 | port4   | FGT-HQ_2:port4               | —                 | HA sync                               |
+|                 | port4   | FGT-HQ_2:port4               | —                 | HA heartbeat (backup)                 |
 |                 | port5   | SW-CORE2-HQ:Gi0/0            | 10.20.3.254/24    | SRV                                   |
 |                 | port6   | SW-CORE1-HQ:Gi0/1            | 10.20.4.254/24    | USR                                   |
 |                 | port7   | SW-CORE1-HQ:Gi1/1            | 10.20.5.254/24    | DMZ                                   |
 | FGT-HQ_2        | port1   | Bridge-HQ_1                  | 10.20.0.1/24      | cluster IP, OSPF Area 10              |
 |                 | port2   | Bridge-HQ_2                  | 10.20.1.1/24      | cluster IP, OSPF Area 10              |
 |                 | port3   | FGT-HQ_1:port3               | —                 | HA heartbeat                          |
-|                 | port4   | FGT-HQ_1:port4               | —                 | HA sync                               |
+|                 | port4   | FGT-HQ_1:port4               | —                 | HA heartbeat (backup)                 |
 |                 | port5   | SW-CORE1-HQ:Gi0/0            | 10.20.3.254/24    | SRV                                   |
 |                 | port6   | SW-CORE2-HQ:Gi0/1            | 10.20.4.254/24    | USR                                   |
 |                 | port7   | SW-CORE2-HQ:Gi1/1            | 10.20.5.254/24    | DMZ                                   |
