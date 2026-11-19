@@ -8,8 +8,6 @@ A resilient enterprise network in EVE-NG: HQ and two branches, dual ISP, and fou
 
 When any component fails — from an access-switch cable to a whole ISP or the active firewall — the network recalculates paths and takes over sessions without manual intervention.
 
-**Status:** Cisco ISP routers — complete; Juniper — in progress; Fortinet and Check Point — planned.
-
 ## Tools & Technologies
 
 [![Cisco](https://img.shields.io/badge/Cisco-IOS-0B5394?style=for-the-badge&logo=cisco&logoColor=white)](https://www.cisco.com/)
@@ -139,6 +137,7 @@ When any component fails — from an access-switch cable to a whole ISP or the a
 | `C2-ISP2`   | `10.255.255.4` | `10.255.255.4/32` |
 | `JUN-CORE1` | `10.255.255.5` | `10.255.255.5/32` |
 | `JUN-CORE2` | `10.255.255.6` | `10.255.255.6/32` |
+| `FGT-HQ`    | `10.255.255.7` | `10.255.255.7/32` |
 
 ## Author
 
